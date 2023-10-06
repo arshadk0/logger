@@ -1,4 +1,4 @@
-package logging
+package network_logger
 
 import (
 	"time"
@@ -12,6 +12,9 @@ const (
 	NETWORK_LOGGER_TYPE     = "network"
 	RESPONSE_MESSAGE_KEY    = "log-message-key"
 	RESPONSE_ERROR_CODE_KEY = "log-error-code-key"
+	LEVEL_KEY               = "level"
+	MESSAGE_KEY             = "type"
+	TIMESTAMP_KEY           = "timestamp"
 )
 
 var networkLogger *zap.Logger

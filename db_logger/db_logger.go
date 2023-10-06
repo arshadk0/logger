@@ -1,4 +1,4 @@
-package logging
+package db_logger
 
 import (
 	"context"
@@ -13,6 +13,9 @@ import (
 )
 
 const (
+	LEVEL_KEY            = "level"
+	MESSAGE_KEY          = "type"
+	TIMESTAMP_KEY        = "timestamp"
 	DATABASE_LOGGER_TYPE = "db"
 )
 
