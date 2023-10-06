@@ -1,4 +1,4 @@
-module github.com/arshadk0/logging
+module github.com/arshadk0/logger
 
 go 1.21.1
 
